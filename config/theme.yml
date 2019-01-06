@@ -1,0 +1,6 @@
+parent: classic
+name: meroyeti
+display_name: child theme of classic's theme customized for meroyeti
+version: 1.0.0
+assets:
+  use_parent_assets: false
