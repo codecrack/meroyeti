@@ -38,6 +38,9 @@
         <div>
           {hook h='displayHomeSlider'}
         </div>
+        <div>
+          {hook h='displayFeaturedProducts'}
+        </div>
       {/if}
     </div>
   </div>

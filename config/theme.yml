@@ -12,11 +12,15 @@ global_settings:
         title: displayMainMenu
       - name: displayHomeSlider
         title: displayHomeSlider
+      - name : displayCategoryProducts
+        title: displayCategoryProducts
     modules_to_hook:
       displayMainMenu:
         - ps_mainmenu
       displayHomeSlider:
         - ps_imageslider
+      displayCategoryProducts:
+        - ps_categoryproducts
 
   image_types:
     cart_default:
