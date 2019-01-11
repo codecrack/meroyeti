@@ -7,7 +7,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     paginationClickable: true,
     centerdSlides: true,
     slidesPerView:4,
-    autoHeight: true,
+    autoHeight: false,
     watchOverflow: true,
     breakpoints: {
         1190: {
