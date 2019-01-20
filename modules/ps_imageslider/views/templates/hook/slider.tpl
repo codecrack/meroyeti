@@ -19,7 +19,7 @@
 							</p>
 							<p id="btn{$count}" style="margin:1.43em 0em 0.36em 0em;">
 								<span>
-									<a  HREF="{$slide.url}" target="_self" class="btn btn-md btn-default">See More</a>
+									<a  HREF="{$slide.url}" target="_self" class="btn btn-md btn-default">See More and more and more</a>
 								</span>
 							</p>
 						</div>

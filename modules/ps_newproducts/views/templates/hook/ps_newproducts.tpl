@@ -22,32 +22,33 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<section class="featured-products clearfix">
-  <div class="category-header">
+
+<section class="featured-products clearfix mt-3">
+    <div class="category-header">
     <div class="col-md-10 col-xs-10 col-xs-10" style="padding-left:0px">
       <span class="products-section-title " style="display:inline-block;">
-        {l s='Featured Electronics' d='Shop.Theme.Catalog'}
+        {l s='New Products' d='Shop.Theme.Catalog'}
       </span>
     </div>
     <div class="col-md-2 col-sm-2 hidden-xs-down">
-       <span class="swiper-button-prev swiper-button-prev-featured-products" style="float:right;position:absolute;display:inline-block;float:right;width:15px; top:10px;left: 125px; padding: 2px; background-size: 25px 25px;
+       <span class="swiper-button-prev swiper-button-prev-new-products" style="float:right;position:absolute;display:inline-block;float:right;width:15px; top:10px;left: 125px; padding: 2px; background-size: 25px 25px;
      background-position: center center;"></span>
-    <span class="swiper-button-next swiper-button-next-featured-products" style="float:right;position:absolute;display:inline-block;float:right;top: 10px; background-size: 25px 25px;
+    <span class="swiper-button-next swiper-button-next-new-products" style="float:right;position:absolute;display:inline-block;float:right;top: 10px; background-size: 25px 25px;
      background-position: center center;"></span>
     </div>
-   
   </div>
   
-  <div class="products swiper-container swiper-container-featured-products"> 
+  <div class="products swiper-container swiper-container-new-products"> 
     <div class="swiper-wrapper">
       {foreach from=$products item="product"}
-        <div class="swiper-slide">
+        <div class="swiper-slide" data-swiper-autoplay="2000">
           {include file="catalog/_partials/miniatures/product.tpl" product=$product}
         </div>
       {/foreach}
     </div>
-    <div class="swiper-pagination swiper-pagination-featured-products"></div>
+    <div class="swiper-pagination swiper-pagination-new-products"></div>
     
   </div>
   
 </section>
+

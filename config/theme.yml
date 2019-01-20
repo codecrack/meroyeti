@@ -12,12 +12,50 @@ global_settings:
         title: displayMainMenu
       - name: displayHomeSlider
         title: displayHomeSlider
-        
+      - name: displayFeaturedProducts
+        title: displayFeaturedProducts
+      - name: displayFeaturedBanner
+        title: displayFeaturedBanner
+      - name: displayNewProducts
+        title: displayNewProducts
+      - name: displayTopSaleBanner
+        title: displayTopSaleBanner
+      - name: displayBrands
+        title: displayBrands
+      - name: displaySpecials
+        title: displaySpecials
+      - name: displayFooterLinkList
+        title: displayFooterLinkList
+      - name: displayFooterContactInfo
+        title: displayFooterContactInfo
+      - name: displayFooterNewsletterSubscription
+        title: displayFooterNewsletterSubscription
+      - name: displayFooterSocialLinks
+        title: displayFooterSocialLinks
+
     modules_to_hook:
       displayMainMenu:
         - ps_mainmenu
       displayHomeSlider:
         - ps_imageslider
+      displayFeaturedBanner:
+        - ps_banner
+      displayFeaturedProducts:
+        - ps_featuredproducts
+      displayNewProducts:
+        - ps_newproducts
+      displayBrands:
+        - ps_brandlist
+      displaySpecials:
+        - ps_specials
+      displayFooterLinkList:
+        - ps_linklist
+      displayFooterContactInfo:
+        - ps_contactinfo
+      displayFooterNewsletterSubscription:
+        - ps_emailsubscription
+      displayFooterSocialLinks:
+        - ps_socialfollow
 
   image_types:
     cart_default:
