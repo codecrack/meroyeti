@@ -27,14 +27,15 @@
   }
 
 #header .header-top .search-widget {
-	float: none;
-    vertical-align: middle;
-    text-align: right;
-    display: inline-block;
-    width: 86%;
-    position: relative;
-    padding: 10px;
+	float: right;
+  vertical-align: middle;
+  text-align: right;
+  display: inline-block;
+  width: 355px;
+  position: relative;
+  padding: 10px;
 }
+
 
 input {
 	border-radius: 5px;
@@ -1406,24 +1407,8 @@ button.btn.btn-primary.add-to-cart {
   #header .header-nav .top-logo {
       padding-top:0px !important;
   }
-}
-
-  @media (max-width: 991px) {
 
   #header .header-top .search-widget {
     width: 100% !important;
   }
-  }
-
-
-@media only screen and (min-width:767px) and (max-width: 968px) {
-    #header .header-top .search-widget {
-      width: 100% !important;
-    }
-}
-
-@media only screen and (min-width:968px) and (max-width: 1199px) {
-    #header .header-top .search-widget {
-      width: 80%% !important;
-    }
 }

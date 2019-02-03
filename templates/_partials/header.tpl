@@ -3,7 +3,7 @@
   <div class="header-top">
     <div class="container">
        <div class="row">
-        <div id="_desktop_logo" class="hidden-sm-down" style="display:inline-block">
+        <div id="_desktop_logo" class="col-xs-3" style="display:inline-block">
             {if $page.page_name == 'index'}
               <h1>
                 <a href="{$urls.base_url}">
@@ -175,7 +175,7 @@
                 <h3>Online Support</h3>
                 <p>
                   Office Opening: Sun-Fri : 10 AM-6 PM <br/> 
-                  Tel no:<strong>9861340637</strong> <br/> 
+                  Tel no:<strong>9861390637</strong> <br/> 
                   <a href="mailto:support@meroyeti.com">support@meroyeti.com</a></p>
                 </div>
               </div>
