@@ -60,7 +60,7 @@
       <p class="text-sm-center">
         {block name='copyright_link'}
           <a class="_blank" href="http://www.prestashop.com" target="_blank">
-            {l s='%copyright% %year% - Mero Yeti Pvt. Ltd.' sprintf=['%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
+            {l s='%copyright% %year% - Meroyeti Online Shopping Pvt. Ltd.' sprintf=['%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
           </a>
         {/block}
       </p>

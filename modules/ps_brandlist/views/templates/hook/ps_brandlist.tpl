@@ -25,10 +25,6 @@
 
 <div id="search_filters_brands" style="padding:40px 0">
     <div class="swiper-container swiper-container-brand">
-      {if $brands}
-        {include file="module:ps_brandlist/views/templates/_partials/$brand_display_type.tpl" brands=$brands}
-      {else}
-        <p>{l s='No brand' d='Shop.Theme.Catalog'}</p>
-      {/if}
+     {include file="module:ps_brandlist/views/templates/_partials/$brand_display_type.tpl" brands=$brands}
     </div>
 </div>

@@ -39,7 +39,7 @@
           {hook h='displayHomeSlider'}
         </div>
 
-        <div class="container" style="height:100%; margin-top:20px;">
+        <!--<div class="container" style="height:100%; margin-top:20px;">
             <div class="row">
               <div class="col-md-8">
 
@@ -80,10 +80,10 @@
             </div>
             </div>
           
-        </div>
+        </div>-->
 
 
-        <div class="banner-container">
+        <!--<div class="banner-container">
           {hook h='displayFeaturedBanner'}
         </div>
        
@@ -103,7 +103,7 @@
               <p><span class="html_title" style="color:#000">Our Top Sales</span></p>
               <p class="html_description" style="color:#000">
                 <span style="color:#000">
-                  Mero Yeti is here with brand new ideas and new Idea brands! We believe in quality and therefore we offer high end products. Check our various top selling products. Mero Yeti is here with brand new ideas and new Idea brands! We believe in quality and therefore we offer high end products. Check our various top selling products.
+                  Meroyeti Online Shopping platform is here with brand new ideas and new Idea brands! We believe in quality and therefore we offer high end products. Check our various top selling products.
                 </span>
               </p>
               <p style="margin:1.43em 0em 0.36em 0em;">
@@ -112,7 +112,7 @@
                 </span>
               </p>
             </div>
-        </div>
+        </div>-->
 
         <div class="container" style="margin-top:20px;">
           {hook h='displayFeaturedProducts'}
@@ -158,7 +158,7 @@
                 <div class="col-right">
                   <h3>Return Policy</h3>
                   <p>
-                    We accept returns within 7 days from the date of purchase. Please contact us Mero Yeti messaging system or feel free to call us.
+                    We accept returns within 7 days from the date of purchase. Please contact us via Meroyeti messaging system or feel free to call us.
                   </p>
                 </div>
               </div>
@@ -176,7 +176,7 @@
                 <p>
                   Office Opening: Sun-Fri : 10 AM-6 PM <br/> 
                   Tel no:<strong>9861390637</strong> <br/> 
-                  <a href="mailto:support@meroyeti.com">support@meroyeti.com</a></p>
+                  <a href="mailto:meroyeti01@gmail.com">meroyeti01@gmail.com</a></p>
                 </div>
               </div>
              </div>

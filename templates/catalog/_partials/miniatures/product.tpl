@@ -27,9 +27,9 @@
     <div class="thumbnail-container">
       {block name='product_thumbnail'}
         {if $product.cover}
-          <a href="{$product.url}" class="thumbnail product-thumbnail">
-            <img
-              src = "{$product.cover.bySize.home_default.url}"
+          <a href="{$product.url}" class="thumbnail product-thumbnail is_stlazyloading">
+<img src="{$stlazyloading.img_prod_url}{$stlazyloading.lang_iso_code}-default-home_default.jpg" class="stlazyloading_holder" width="{$product.cover.bySize.home_default.width}" height="{$product.cover.bySize.home_default.height}" alt="{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name}{/if}" />
+<img data-src = "{$product.cover.bySize.home_default.url}" class="stlazyloadthis"
               alt = "{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
               data-full-size-image-url = "{$product.cover.large.url}"
             >
