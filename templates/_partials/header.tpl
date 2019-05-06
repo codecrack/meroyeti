@@ -39,51 +39,80 @@
           {hook h='displayHomeSlider'}
         </div>
 
+          <div class="container" style="height:100%; margin-top:20px;">
+            <div class="row">
+              <div class="col-md-6" style="padding:0;padding-right:1px">
+
+                <a style="width:100%;height:100%; display:inline-block"  href="">
+                  <img style="width:100%;height:380px; padding-bottom:4px" src="http://localhost:81/prestashop/themes/meroyeti/templates/_partials/images/cover12.jpg">
+                </a>
+              </div>
+
+              <div class="col-md-6" style="padding:0;padding-left:1px">
+                  <a style="width:100%;height:100%; display:inline-block" href="https://meroyeti.com/headphones-headsets/29-sony-mdr-ex250ap-in-ear-headphones-earphone-black-with-mic-.html">
+                  <img style="width:100%;height:100%" src="http://localhost:81/prestashop/themes/meroyeti/templates/_partials/images/game7.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" style="padding:0;padding-right:1px">
+
+                <a style="width:100%;height:100%; display:inline-block"  href="">
+                  <img style="width:100%;height:100%" src="http://localhost:81/prestashop/themes/meroyeti/templates/_partials/images/remax1.jpg">
+                </a>
+              </div>
+
+              <div class="col-md-6" style="padding:0;padding-left:1px">
+                  <a style="width:100%;height:100%; display:inline-block" href="https://meroyeti.com/headphones-headsets/29-sony-mdr-ex250ap-in-ear-headphones-earphone-black-with-mic-.html">
+                  <img style="width:100%;height:100%" src="http://localhost:81/prestashop/themes/meroyeti/templates/_partials/images/sp10.png">
+                </a>
+              </div>
+            </div>
+            
+        </div>
         <!--<div class="container" style="height:100%; margin-top:20px;">
             <div class="row">
-              <div class="col-md-8">
-
-              <a style="display:inline-block;">
-                <img style="width:100%;height: 100%" src="https://meroyeti.com/themes/meroyeti/assets/images/iremax-banner.jpg">
-              </a>
-              <a style="display:inline-block;">
-                <img style="width:100%;height: 100%; padding-top:5px" src="https://meroyeti.com/themes/meroyeti/assets/images/joyroom-banner.jpg">
-                <img style="width:90%;height: 90%;" src="https://meroyeti.com/themes/meroyeti/assets/images/joyroom-banner1.jpg">
-              </a>
-            </div>
-
-            <div class="col-md-4">
-                <div class="row">
-                  <div class="col-md-12">
-                  <a style="display:inline-block; background-image:url()">
-                    <img style="width:100%;height: 100%" src="https://meroyeti.com/themes/meroyeti/assets/images/usams-banner1.jpg">
-                  </a>
-                </div>
-                <div class="col-md-12">
-                 <a style="display:inline-block; background-image:url()">
-                    <img style="width:100%;height: 100%;" src="https://meroyeti.com/themes/meroyeti/assets/images/usams-banner.jpg">
-                  </a>
-                </div>
-             </div>
-            </div>
-            </div>
-
-            <div class="row">
               <div class="col-md-4">
-              <img style="width:100%;height: 100%;" src="https://meroyeti.com/themes/meroyeti/assets/images/rockspace-banner3.jpg">
-              <img style="width:100%;height: 100%; margin-top: 4px" src="https://meroyeti.com/themes/meroyeti/assets/images/rockspace-banner2.jpg">
+
+                <a class="tile-anchor" href="https://meroyeti.com/video-game-accessories/24-xbox-360-wired-game-controller-full-black.html">
+                  <img class="bottom" src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/k.jpg">
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                  <a class="tile-anchor" href="https://meroyeti.com/headphones-headsets/29-sony-mdr-ex250ap-in-ear-headphones-earphone-black-with-mic-.html">
+                  <img class="top" src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/headphone.jpg">
+                </a>
+              </div>
+              <div class="col-md-4">
+                  <a class="tile-anchor" href="https://meroyeti.com/bike-accessories/52-cycle-bike-handlebar-mount-for-gopro-action-camcorders-.html">
+                  <img src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/gopro1.jpg">
+                </a>
+              </div>
             </div>
-            <div class="col-md-8">
-              <img style="width:100%;height: 100%;" src="https://meroyeti.com/themes/meroyeti/assets/images/baseus-banner.jpg">
-              <img style="width:100%;height: 100%" src="https://meroyeti.com/themes/meroyeti/assets/images/baseus-banner1.jpg">
-               <img style="width:100%;height: 100%" src="https://meroyeti.com/themes/meroyeti/assets/images/baseus-banner3.jpg">
+
+             <div class="row">
+              <div class="col-md-4">
+
+                <a class="tile-anchor" href="https://meroyeti.com/smart-watch/77-coteetci-silicone-watch-band-strap-for-iwatch-series-38mm-44mm-.html">
+                  <img src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/band2.jpg">
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                  <a class="tile-anchor" href="https://meroyeti.com/home/31-ewa-a150-wireless-bluetooth-hifi-speaker-subwoofer-with-mic-tf-card-slot-aux-in.html">
+                  <img src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/bluetooth-speakers.jpg">
+                </a>
+              </div>
+              <div class="col-md-4">
+                  <a class="tile-anchor" href="https://meroyeti.com/home/32-rock-heat-dissipation-game-controller-cooling-pad-stand-for-mobile-phone.html">
+                  <img src="https://meroyeti.com/themes/meroyeti/templates/_partials/images/heat3.jpg">
+                </a>
+              </div>
             </div>
-            </div>
-          
         </div>-->
 
-
-        <!--<div class="banner-container">
+        <div class="banner-container">
           {hook h='displayFeaturedBanner'}
         </div>
        
@@ -112,7 +141,7 @@
                 </span>
               </p>
             </div>
-        </div>-->
+        </div>
 
         <div class="container" style="margin-top:20px;">
           {hook h='displayFeaturedProducts'}
