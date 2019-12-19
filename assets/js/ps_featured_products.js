@@ -108,7 +108,7 @@ var featuredProdcutsSwiper = new Swiper ('.swiper-container-featured-products', 
 var specialProdcutsSwiper = new Swiper ('.swiper-container-special-products', {
     // Optional parameters
     direction: 'horizontal',
-    loop: true,
+    loop: false,
     paginationClickable: true,
     centerdSlides: true,
     slidesPerView:4,
@@ -155,6 +155,18 @@ var specialProdcutsSwiper = new Swiper ('.swiper-container-special-products', {
       el: '.swiper-scrollbar',
     },
   })
+
+  function fixLoopImageLoading() {
+     $('.swiper-slide a').removeClass('is_stlazyloading')
+     $('.swiper-slide a img[data-src]').each(function() {
+             $(this).attr('src', $(this).attr('data-src'))
+     })
+     $('.swiper-slide a img').removeClass('stlazyloadthis')
+  }
+  mySwiper.once('slideChange', fixLoopImageLoading)
+  featuredProdcutsSwiper.once('slideChange', fixLoopImageLoading)
+  specialProdcutsSwiper.once('slideChange', fixLoopImageLoading)
+
 
 var brandSwiper = new Swiper ('.swiper-container-brand', {
     // Optional parameters

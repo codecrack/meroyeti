@@ -39,30 +39,30 @@
     {/if}
   {/foreach}
    <li class="facet-label swiper-slide" style="width:150px !important">
-        <a href="{$brand['link']}" title="{$brand['name']}" 
+        <a href="https://meroyeti.com/search?controller=search&s=baseus" title="Baseus" 
         style="background-image:url('https://meroyeti.com/themes/meroyeti/assets/images/baseus-trans.png');" alt="{$brand['name']}">
           
         </a>
       </li>
        <li class="facet-label swiper-slide" style="width:150px !important">
-        <a href="{$brand['link']}" title="{$brand['name']}" 
+        <a href="https://meroyeti.com/search?controller=search&s=rock" title="Rockspace" 
         style="background-image:url('https://meroyeti.com/themes/meroyeti/assets/images/rockspace-trans-big.png');" alt="{$brand['name']}">
           
         </a>
       </li>
        <li class="facet-label swiper-slide" style="width:150px !important">
-        <a href="{$brand['link']}" title="{$brand['name']}" 
+        <a href="https://meroyeti.com/search?controller=search&s=usams" title="usams" 
         style="background-image:url('https://meroyeti.com/themes/meroyeti/assets/images/usams.png');" alt="{$brand['name']}">
           
         </a>
          <li class="facet-label swiper-slide" style="width:150px !important">
-        <a href="{$brand['link']}" title="{$brand['name']}" 
+        <a href="https://meroyeti.com/search?controller=search&s=remax" title="remax" 
         style="background-image:url('https://meroyeti.com/themes/meroyeti/assets/images/iremax.png');" alt="{$brand['name']}">
           
         </a>
       </li>
        <li class="facet-label swiper-slide" style="width:150px !important">
-        <a href="{$brand['link']}" title="{$brand['name']}" 
+        <a href="https://meroyeti.com/search?controller=search&s=joyroom" title="joyroom" 
         style="background-image:url('https://meroyeti.com/themes/meroyeti/assets/images/joyroom.png');" alt="{$brand['name']}">
           
         </a>

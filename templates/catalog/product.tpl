@@ -37,7 +37,7 @@
   <meta property="og:image" content="{$product.cover.large.url}">
   <meta property="product:pretax_price:amount" content="{$product.price_tax_exc}">
   <meta property="product:pretax_price:currency" content="{$currency.iso_code}">
-  <meta property="product:price:amount" content="{$product.price_amount}">
+  <meta property="product:price:amount" content="{str_replace('$', 'Rs ', $product.price_amount)}">
   <meta property="product:price:currency" content="{$currency.iso_code}">
   {if isset($product.weight) && ($product.weight != 0)}
   <meta property="product:weight:value" content="{$product.weight}">
@@ -52,7 +52,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <div style="display:table-cell; vertical-align: top;">
+          <div id="product-box-1">
             {block name='page_content_container'}
               <section class="page-content" id="content">
                 {block name='page_content'}
@@ -76,7 +76,7 @@
               </section>
             {/block}
           </div>
-          <div style="display:table-cell; vertical-align: top; padding-left: 25px">
+          <div id="product-box-2">
             {block name='page_header_container'}
                 {block name='page_header'}
                   <h1 class="h1" itemprop="name">{block name='page_title'}{$product.name}{/block}</h1>
