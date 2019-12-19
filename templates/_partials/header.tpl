@@ -160,10 +160,11 @@
                 </div>
                 <div class="col-right" style="">
                   <h3>Shipping</h3>
+                  <p><b>Free shipping all over Nepal</b></p>
                   <p>
-                    <b>Kathmandu Valley:</b> Free Delivery Same Day order before 11:30 AM / Next Day Delivery Service
+                    <b>Kathmandu Valley: </b>Same Day Delivery for orders before 11:30 AM, the Next Day otherwise
                   </p>
-                  <p><b>Outside Kathmandu:</b> Rs 120: 2 - 3 Working Days</p>
+                  <p><b>Outside Kathmandu: </b>2 - 3 Working Days</p>
                 </div>
               </div>
 
@@ -177,9 +178,9 @@
                 </div>
                 <div class="col-right">
                   <h3>Return Policy</h3>
-                  <p>
-                    We accept returns within 7 days from the date of purchase. Please contact us via Meroyeti messaging system or feel free to call us.
-                  </p>
+                  <p>30 Day Return Policy for unused products only</p>
+                  <p>14 Day Exchange Policy for defective products only</p>
+                  <p>Please contact us via meroyeti messaging system or feel free to call us</p>
                 </div>
               </div>
 
