@@ -1043,7 +1043,7 @@ z-index:2;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     /*background-size: fill;*/
-    background-position: Center Center;
+    background-position: Center -50px !important;
     background-clip: padding-box !important;
     display: block;
     width: 100%;
